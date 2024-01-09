@@ -1,0 +1,52 @@
+for (let i = 1; i <= 9; i++) {
+  for (let j = 1; j <= 9; j++) {
+    console.log(`${i} * ${j} = ${i * j}`);
+  }
+  console.log(`${i}단 끝 `); // 각 단이 끝날 때 개행 문자 추가
+}
+
+
+
+
+const userInput = prompt('숫자를 입력하세요:');
+
+// 입력된 값이 숫자인지 확인
+const number = parseInt(userInput);
+
+// 숫자가 아닌 경우
+if (isNaN(number)) {
+  console.log('올바른 숫자를 입력하세요.');
+} else {
+  // 짝수 또는 홀수 판별
+  if (number % 2 === 0) {
+    console.log('입력한 숫자는 짝수입니다.');
+  } else {
+    console.log('입력한 숫자는 홀수입니다.');
+  }
+}
+
+
+
+// 두 숫자를 prompt로 입력받아 더하는 프로그램
+let num1 = prompt("첫 번째 숫자를 입력하세요:");
+let num2 = prompt("두 번째 숫자를 입력하세요:");
+
+// 입력값을 숫자로 변환
+num1 = parseInt(num1);
+num2 = parseInt(num2);
+
+
+
+let userInput = prompt("이름을 입력하세요:");
+console.log("안녕하세요, " + userInput + "님!");
+
+
+let number = -7;
+
+if (number > 0) {
+  console.log("양수입니다.");
+} else if (number < 0) {
+  console.log("음수입니다.");
+} else {
+  console.log("0입니다.");
+}
