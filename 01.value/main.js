@@ -124,3 +124,42 @@
 // console.log(num)
 
 //  비교 연산자 & 조건문 
+
+
+
+
+// for (let i = 1; i <= 9; i++) {
+//   for (let j = 1; j <= 9; j++) {
+//     console.log(`${i} * ${j} = ${i * j}`);
+//   }
+//   console.log(`${i}단 끝 `);
+// }
+
+
+
+
+
+// const userInput = prompt('숫자를 입력하세요:');
+
+// const number = parseInt(userInput);
+
+// if (isNaN(number)) {
+//   console.log('올바른 숫자를 입력하세요.');
+// } else {
+//   if (number % 2 === 0) {
+//     console.log('입력한 숫자는 짝수입니다.');
+//   } else {
+//     console.log('입력한 숫자는 홀수입니다.');
+//   }
+// }
+
+
+do {
+  let num = prompt("알고 싶은 구구단 단숫자를 입력해주세요");
+
+  for (let i = 1; i < 10; i++) {
+    console.log(num * i);
+  }
+
+  let answer = confirm("알고싶은 다른 단을 입력하시겠습니까?");
+} while (answer);
