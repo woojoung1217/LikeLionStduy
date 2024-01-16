@@ -32,11 +32,12 @@
 // console.log(g);
 
 
-// 사용자로부터 성적 입력
+
 // let scoreInput = prompt("성적을 입력하세요:");
 
 // // 입력된 성적을 실수로 변환
 // let score = parseFloat(scoreInput);
+
 
 // // 스위치문을 사용하여 등급 결정
 // let grade;
@@ -64,3 +65,28 @@
 
 // // 결과 출력
 // alert("입력한 성적의 등급은 " + grade + "입니다.");
+
+
+// const superman = {
+//   name: 'clark',
+//   age: 30,
+// }
+
+// console.log(superman.name);
+// console.log(superman['name']);
+
+// const student = {
+//   name: "홍길동",
+//   age: 20,
+//   grade: "A",
+//   isMale: false,
+// };
+
+// // 학생 정보 출력
+// console.log("이름: " + student.name);
+// console.log("나이: " + student.age);
+// console.log("학점: " + student.grade);
+// console.log("성별: " + (student.isMale ? "남성" : "여성"));
+
+
+

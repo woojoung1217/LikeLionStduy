@@ -1,8 +1,35 @@
 
-1. 사용자에게 입력을 받는 ageCheck 이라는 함수를 만들어 보자 
-   - 함수의 매개변수로는 숫자를 입력 받는 age 를 포함한다 
+
+1. 사용자로 부터 프롬프트로 성적을 입력 받아 90 이상이면 "A" , 80 이상이면 "B" , 70 이상이면 "C" , 60 이상이면 "D"
+   60 보다 더 미만 점수라면 "F"를 반환 하는 스위치 문을 만들어 보자 ! (스위치)
+ 
 
 
+2. 사용자에게 입력을 받는 ageCheck 라는 함수를 만들어 보자 (함수)
+   - 함수의 매개변수로는 숫자를 입력 받는 age 를 포함한다. 
    결과 값  = >  ageCheck(20) => "성인입니다" agecheck(10) => "아직 성인이 아닙니다"
 
-   
+
+// 학생 객체 생성
+const  student = {
+    name: "홍길동",
+    age: 20,
+    grade: "A",
+    isMale: true
+};
+
+// 학생 정보 출력
+console.log("이름: " + student.name);
+console.log("나이: " + student.age);
+console.log("학점: " + student.grade);
+console.log("성별: " + (student.isMale ? "남성" : "여성"));
+
+
+
+var numbers = [1, 2, 3, 4, 5];
+
+var sum = numbers.reduce(function(accumulator, currentValue) {
+  return accumulator + currentValue;
+}, 0);
+
+console.log(sum);  // 결과: 15
